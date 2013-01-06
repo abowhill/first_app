@@ -14,15 +14,14 @@ This is a [markdown syntax guide] (http://daringfireball.net/projects/markdown/s
 Website Planning
 ----------------
 
-Here are some [website usability guidelines] (https://docs.google.com/viewer?url=http://www.usabilitynet.org/papers/useofguidelines.pdf)
-Here is the sketchy on that subject:
+Here are some [website usability guidelines] (https://docs.google.com/viewer?url=http://www.usabilitynet.org/papers/useofguidelines.pdf) and some sketchy on the subject:
 
 * design goals and benefits
 * the conditions under which the guideline should be applied
 * the precise nature of the proposed solution
 * any procedure which must be followed to apply the guidelines
 
-We got your [basic usability] (http://www.usabilitynet.org/management/basics.htm), some [usability standards] (https://docs.google.com/viewer?url=http://www.usabilitynet.org/trump/documents/Usability_standards.ppt.pdf), a [roundup of mockup tools] (http://speckyboy.com/2009/11/23/a-collection-of-useful-web-design-wireframing-resources/), and more [general usability resources] (http://www.usabilitynet.org/trump/index.htm)
+We also got your [basic usability stuff] (http://www.usabilitynet.org/management/basics.htm), some [usability standards] (https://docs.google.com/viewer?url=http://www.usabilitynet.org/trump/documents/Usability_standards.ppt.pdf), a [roundup of mockup tools] (http://speckyboy.com/2009/11/23/a-collection-of-useful-web-design-wireframing-resources/), and more [general usability resources] (http://www.usabilitynet.org/trump/index.htm)
 
 Databases in Rails
 ------------------
@@ -36,11 +35,11 @@ Every Rails3 project includes references to some gems for simplification and min
 
 uglifier [minifies and compresses javascript] (https://github.com/lautis/uglifier). 
 
-Sass-rails [simplifies and enhances CSS authoring] (https://github.com/lautis/uglifier) with some really cool features like what this [railscast] shows (http://railscasts.com/episodes/268-sass-basics). You add the .scss extension to your CSS files to activate this. 
+Sass-rails [simplifies and enhances CSS authoring] (https://github.com/lautis/uglifier) with some really cool features like what this [railscast] (http://railscasts.com/episodes/268-sass-basics) shows. You add the .scss extension to your CSS files to activate this. 
 
-Coffee-rails uses coffeescript to express javascript in a simplified way, which is converted by Rails3 at runtime into real javascript. There is also a [realtime browser embedded interpreter] (http://coffeescript.org) at the author's website to construct coffeescript code online. You name your coffeescript files with the .coffee extension [railscast] (http://railscasts.com/episodes/267-coffeescript-basics?view=comments) 
+Coffee-rails uses coffeescript to express javascript in a simplified way, which is converted by Rails3 at runtime into real javascript. There is also a [realtime browser embedded interpreter] (http://coffeescript.org) at the author's website to construct coffeescript code online. You name your coffeescript files with the .coffee extension like this [railscast] (http://railscasts.com/episodes/267-coffeescript-basics?view=comments) illustrates.
 
-jquery-rails is [jquery] (http://os.alfajango.com/rails-jquery-demo/)
+jquery-rails is [jquery] (http://os.alfajango.com/rails-jquery-demo/) and I can't say much about it right now.
 
 
 Git
@@ -64,15 +63,16 @@ Then you Edit changes to your code.
    * Check with: `git status`
 
 Then you Commit each change you make back to your local Git repository.
-   * Do this with: `git commit -a` or `git commit -a -m "my changes"` if you didn't setup your editor.
+   * Do this with: `git commit -a` 
+   * Or use `git commit -a -m "my changes"` if you didn't setup your editor.
    * Check by looking at the terminal output of the command.
 
 Keep doing the two Edit/Commit steps above until your changes are complete.
 
 When done with it all, Merge your changes back into the Main Branch 
    * Do this with: `git checkout master`
-   ** `git merge README-BRANCH`
-   ** If you want to delete the temp branch do: `git branch -d README-BRANCH`
+   * `git merge README-BRANCH`
+   * If you want to delete the temp branch do: `git branch -d README-BRANCH`
    * Check by looking at the terminal output of the command and `git branch`
 
 Finally, Push your changes to Github

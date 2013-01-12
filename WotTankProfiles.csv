@@ -1,0 +1,9 @@
+Nation,CostXp,CostDollars,TankType,Tier,TankName,TankNumber,HitPoints,WeightLimit,LoadLimit,EngineHorsePower,SpeedLimitKph,TraverseSpeedDegSec,HullArmorFront,HullArmorSides,HullArmorRear,TurretArmorFront,TurretArmorSides,TurrentArmorRear,StandardShellDamageMin,StandardShellDamageMax,StandardShellPenetrationMin,StandardShellPenetrationMax,RateOfFire,TurretTraverseSpeed,ViewRange,SignalRange,CrewSize
+USA,817,0,Light,1,Cunningham,T1,105,7.21,7.6,110,41,34,10,10,10,10,10,10,23,38,21,35,24,39,240,90,2
+USA,1794,3000,Destroyer,2,,T18,125,13.21,14,245,48,28,51,32,25,,,,30,50,42,70,28.57,44,240,265,4
+USA,1004,30000,Destroyer,3,,T82,160,12.63,14,245,48,30,13,7,13,,,,131,219,29,48,13.64,44,370,265,5
+USA,4604,125000,Destroyer,4,,T40,275,20.31,22.5,400,38,30,51,38,38,,,,131,219,29,48,16.22,44,400,265,5
+USA,9417,8990,Destroyer,5,Wolverine,M10,340,27.84,28.49,350,48,28,51,19,25,57,25,25,83,138,76,126,14.29,17,370,395,5
+USA,21850,442100,Destroyer,6,Jackson,M36,560,28.28,28.89,350,42,28,114,25,25,76,25,25,86,144,96,160,19.35,16,370,395,5
+USA,25500,950000,Destroyer,6,Hellcat,M18,550,17.42,17.95,350,72,30,13,13,13,25,13,13,86,144,96,160,19.35,16,370,395,5
+USA,,,Light,4,Stuart,M5,200,14.83,15.5,320,58,40,28,28,25,44,31,31,9,15,23,38,120,40,330,395,5
